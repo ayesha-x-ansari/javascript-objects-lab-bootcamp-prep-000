@@ -1,9 +1,9 @@
 var recipes = {}
 
 var obj = { prop: 1 }
-prop_2  = 'prop2'
-value_2 = 2
-function updateObjectWithKeyAndValue(obj, prop_2, value_2) {
+key  = 'prop2'
+value = 2
+function updateObjectWithKeyAndValue(obj, key, value) {
    Object.assign({}, obj, { [key]: value })
    return Object
 }
