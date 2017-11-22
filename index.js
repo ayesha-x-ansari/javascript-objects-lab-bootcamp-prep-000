@@ -24,3 +24,12 @@ function deleteFromObjectByKey(obj, key) {
   delete newObj[key]
   return newObj
 }
+
+
+var obj = { prop: 1 }
+var value = prop
+function destructivelyDeleteFromObjectByKey(obj, key) {
+  delete object[key]
+
+  return object
+}
