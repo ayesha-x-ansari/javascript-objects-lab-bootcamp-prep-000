@@ -29,7 +29,7 @@ function deleteFromObjectByKey(obj, key) {
 var obj = { prop: 1 }
 var value = prop
 function destructivelyDeleteFromObjectByKey(obj, key) {
-  delete object[key]
+  delete obj[key]
 
-  return object
+  return obj
 }
